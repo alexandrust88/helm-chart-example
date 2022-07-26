@@ -8,7 +8,7 @@ image:
   repository: nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: <path:kv/data/test_password#test_password>
+  tag: <path:avp/data/test_password#gitlab_password>
 
 nameOverride: ""
 fullnameOverride: ""
